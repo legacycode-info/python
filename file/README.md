@@ -15,3 +15,4 @@ Here's a simple Python script that performs the described task. Please note that
 ```bash
 python3 splitup.py main functions
 ```
+
