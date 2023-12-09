@@ -49,3 +49,5 @@ This code example performs the following:
 python3 splitup.py functions
 ```
 
+---
++ Modular Documentation made possible by the [FlatEdit](http://www.flatedit.com) project.
