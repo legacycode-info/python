@@ -1,15 +1,15 @@
 
-# [python.legacycode.info](http://python.legacycode.info) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/legacycode-info/pythonedit/main/docs/README.md)
+# [python.legacycode.info](http://python.legacycode.info) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/legacycode-info/python/edit/main/docs/README.md)
 
 python, http://www.legacycode.info
 
-+ [github.com](http://github.com) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/legacycode-info/pythonedit/main/docs/PROJECTS.md)
++ [github.com](http://github.com) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/legacycode-info/python/edit/main/docs/PROJECTS.md)
 + [docs # [python.legacycode.info](http://python.legacycode.info)](http://github.com/docs)
 + [docs + [github.com](http://github.com)](http://github.com/docs)
 + [file ## SPLITUP](http://github.com/file)
 + [import ## Dependency](http://github.com/import)
 
-## SPLITUP [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/legacycode-info/pythonedit/main/file/README.md)
+## SPLITUP [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/legacycode-info/python/edit/main/file/README.md)
 
 Python script that will parse through a Python source file, extract each top-level function, and save them into separate files. The script will then create a `main.py` file that imports all of these functions.
 
@@ -27,7 +27,7 @@ Here's a simple Python script that performs the described task. Please note that
 python3 splitup.py main functions
 ```
 
-## Dependency [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/legacycode-info/pythonedit/main/import/README.md)
+## Dependency [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/legacycode-info/python/edit/main/import/README.md)
 
 parse each function file we created to find out which functions it calls, and then add the necessary imports at the top of the function files. This updated script assumes that we're working with the output of the previous refactoring operation, with all function files located in a directory.
 
