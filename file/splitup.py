@@ -5,13 +5,7 @@ import ast
 
 # Get a list of all the refactored function files
 def main(source_file, output_dir):
-    # The name/path of your large Python source file
-    source_file = 'multigit.py'
-
-    # The directory where the function files will be stored
-    output_dir = 'function'
     os.makedirs(output_dir, exist_ok=True)
-
     # The main file with the imports
     main_py_content = []
 
@@ -55,8 +49,11 @@ if __name__ == '__main__':
     parser.add_argument('directory', help='The directory containing the refactored function files.')
 
     args = parser.parse_args()
+    # The directory where the function files will be stored
     output_dir = args.directory
-    main_py_content = main(args.file, output_dir)
+    # The name/path of your large Python source file
+    source_file = args.file
+    main_py_content = main(source_file, output_dir)
 
     # Write the main.py file
     main_py_file_path = os.path.join(output_dir, 'main.py')

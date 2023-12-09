@@ -14,9 +14,9 @@ This code example performs the following:
 4. Each refactored file should contain only one top-level function for the import statements to work correctly without causing circular imports.
 
 
-## How to start
+### How to start
 
 ```bash
-python3 splitup.py main functions
+python3 splitup.py functions
 ```
 

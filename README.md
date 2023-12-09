@@ -15,7 +15,7 @@ Here's a simple Python script that performs the described task. Please note that
 3. The use of the `ast` since parsing the file as text may not be robust enough to handle complex cases of code structuring or syntax.
 4. The `main.py` simply imports all functions, but does not replicate any imperative code that existed in the original file; additional logic might be required for a complete refactor.
 
-## How to start
+### How to start
 
 ```bash
 python3 splitup.py main functions
@@ -38,10 +38,10 @@ This code example performs the following:
 4. Each refactored file should contain only one top-level function for the import statements to work correctly without causing circular imports.
 
 
-## How to start
+### How to start
 
 ```bash
-python3 splitup.py main functions
+python3 splitup.py functions
 ```
 
 
