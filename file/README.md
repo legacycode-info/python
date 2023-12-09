@@ -1,4 +1,4 @@
-# SPLITUP
+## SPLITUP
 
 Python script that will parse through a Python source file, extract each top-level function, and save them into separate files. The script will then create a `main.py` file that imports all of these functions.
 

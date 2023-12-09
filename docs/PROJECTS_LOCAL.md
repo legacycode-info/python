@@ -1,2 +1,5 @@
 + [/home/tom/github/legacycode-info/python](file:///home/tom/github/legacycode-info/python/)
-+ [* ](file:///home/tom/github/legacycode-info/python/*/index.html)
++ [docs # [python.legacycode.info](http://python.legacycode.info)](file:///home/tom/github/legacycode-info/python/docs/index.html)
++ [docs + [github.com](http://github.com)](file:///home/tom/github/legacycode-info/python/docs/index.html)
++ [file ## SPLITUP](file:///home/tom/github/legacycode-info/python/file/index.html)
++ [import ## Dependency](file:///home/tom/github/legacycode-info/python/import/index.html)

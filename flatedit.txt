@@ -1,3 +1,4 @@
 docs/README.md
+docs/PROJECTS.md
 file/README.md
 import/README.md
